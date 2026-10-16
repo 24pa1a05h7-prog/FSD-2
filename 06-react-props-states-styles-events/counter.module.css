@@ -1,0 +1,22 @@
+.counter {
+  /*
+   * Counter-specific styling.
+   * CSS Modules keep this class scoped to Counter.jsx.
+   */
+  padding: 24px;
+  margin: 24px 0;
+  border: 2px solid var(--primary-color);
+  border-radius: 12px;
+  background: #f7f5ff;
+}
+
+.counter button {
+  margin-right: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.counter button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
